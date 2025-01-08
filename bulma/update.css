@@ -1,0 +1,27 @@
+.rouded-right-corner {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.rounded-left-corners {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.light-grey {
+  background-color: rgb(231, 231, 231);
+}
+
+.light-black {
+  color: rgb(129 124 124) !important;
+}
+
+
+
+@media (max-width: 768px) {
+  .column-reverse-mobile {
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+}
+
