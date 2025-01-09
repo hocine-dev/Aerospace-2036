@@ -55,3 +55,8 @@
   transform: scale(1.05); /* Slight zoom effect on hover */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Darker shadow on hover */
 }
+
+.button-line {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
